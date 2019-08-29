@@ -1,0 +1,19 @@
+{
+	"Privacy Contact Information": 0,
+	"First Party Collection": 1,
+	"Third Party Sharing and Collection": 2,
+	"User Control": 3,
+	"Data Retention": 4,
+	"Legal basis": 5,
+	"Internal and Specific Audiences": 6,
+	"User Right": 7,
+	"Data Transfer": 8,
+	"Links": 9,
+	"Other": 10,
+	"User Choice/Control": 11,
+	"Policy Change": 12,
+	"Data Security": 13,
+	"Cookies and Similar Technologies": 14,
+	"Introductory/Generic": 15,
+	"First Party Use": 16
+}
