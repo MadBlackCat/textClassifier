@@ -1,3 +1,5 @@
+# for extract label and other information from origin .bmes file
+
 import os
 import pandas as pd
 from preprocess import preproces

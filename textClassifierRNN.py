@@ -7,11 +7,12 @@ from collections import defaultdict
 import re
 
 from bs4 import BeautifulSoup
-
+from sklearn.metrics import f1_score, precision_score, recall_score
+from sklearn import svm
 import sys
 import os
 
-os.environ['KERAS_BACKEND']='theano'
+# os.environ['KERAS_BACKEND']='theano'
 
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
@@ -21,15 +22,12 @@ from keras.layers import Embedding
 from keras.layers import Dense, Input, Flatten
 from keras.layers import Conv1D, MaxPooling1D, Embedding, Merge, Dropout, LSTM, GRU, Bidirectional
 from keras.models import Model
+from nltk import tokenize
 
 from keras import backend as K
 from keras.engine.topology import Layer, InputSpec
-from keras import initializations
-
-MAX_SEQUENCE_LENGTH = 1000
-MAX_NB_WORDS = 20000
-EMBEDDING_DIM = 100
-VALIDATION_SPLIT = 0.2
+from keras import initializers
+# from keras import l
 
 def clean_str(string):
     """
@@ -41,138 +39,145 @@ def clean_str(string):
     string = re.sub(r"\"", "", string)    
     return string.strip().lower()
 
-data_train = pd.read_csv('~/Testground/data/imdb/labeledTrainData.tsv', sep='\t')
-print data_train.shape
+result = []
+model_name = "RNN_"
+eval_path = "./eval/"+ model_name  + ".csv"
+#
+label_list =["First Party Collection", "Data Retention", "Cookies and Similar Technologies", "First Party Use", "Links",
+             "User Control", "Introductory/Generic", "Data Security", "Third Party Sharing and Collection", "User Right",
+             "Internal and Specific Audiences", "Data Transfer", "Policy Change", "Legal Basis", "Privacy Contact Information"]
 
-texts = []
-labels = []
-
-for idx in range(data_train.review.shape[0]):
-    text = BeautifulSoup(data_train.review[idx])
-    texts.append(clean_str(text.get_text().encode('ascii','ignore')))
-    labels.append(data_train.sentiment[idx])
+for label in label_list:
+# label = "15 classification"
+    classification_name = label.replace(" ", "_").replace("/", "_")
+    GLOVE_DIR = "./word_embedding/"
+    embedding_file = 'fasttext_embedding.vec'
+    train_path = './data/' + classification_name + '_train_data.tsv'
+    dev_path = './data/' + classification_name + '_dev_data.tsv'
+    test_path = './data/' + classification_name + '_test_data.tsv'
     
+    save_model_path = "./model/" + model_name + classification_name + "_model.h5"
+    log_path = "./log/" + model_name + classification_name + ".log"
+    # eval_path = "./data_status/"+ model_name + classification_name + ".csv"
+    import logging
+    logging.basicConfig(level=logging.INFO,
+                        filename=log_path,
+                        filemode='a',
+                        format='%(asctime)s - %(pathname)s[line:%(lineno)d] - '+ classification_name +' -%(levelname)s: %(message)s'
+                        )
+    
+    MAX_SEQUENCE_LENGTH = 800
+    EMBEDDING_DIM = 100
+    VALIDATION_SPLIT = 0.2
+    MAX_NB_WORDS = 60000
+    Label_Size = 2
+    
+    epochs = 30
+    batch_size = 512
 
-tokenizer = Tokenizer(nb_words=MAX_NB_WORDS)
-tokenizer.fit_on_texts(texts)
-sequences = tokenizer.texts_to_sequences(texts)
-
-word_index = tokenizer.word_index
-print('Found %s unique tokens.' % len(word_index))
-
-data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
-
-labels = to_categorical(np.asarray(labels))
-print('Shape of data tensor:', data.shape)
-print('Shape of label tensor:', labels.shape)
-
-indices = np.arange(data.shape[0])
-np.random.shuffle(indices)
-data = data[indices]
-labels = labels[indices]
-nb_validation_samples = int(VALIDATION_SPLIT * data.shape[0])
-
-x_train = data[:-nb_validation_samples]
-y_train = labels[:-nb_validation_samples]
-x_val = data[-nb_validation_samples:]
-y_val = labels[-nb_validation_samples:]
-
-print('Traing and validation set number of positive and negative reviews')
-print y_train.sum(axis=0)
-print y_val.sum(axis=0)
-
-GLOVE_DIR = "~/Testground/data/glove"
-embeddings_index = {}
-f = open(os.path.join(GLOVE_DIR, 'glove.6B.100d.txt'))
-for line in f:
-    values = line.split()
-    word = values[0]
-    coefs = np.asarray(values[1:], dtype='float32')
-    embeddings_index[word] = coefs
-f.close()
-
-print('Total %s word vectors.' % len(embeddings_index))
-
-embedding_matrix = np.random.random((len(word_index) + 1, EMBEDDING_DIM))
-for word, i in word_index.items():
-    embedding_vector = embeddings_index.get(word)
-    if embedding_vector is not None:
-        # words not found in embedding index will be all-zeros.
-        embedding_matrix[i] = embedding_vector
-        
-embedding_layer = Embedding(len(word_index) + 1,
-                            EMBEDDING_DIM,
-                            weights=[embedding_matrix],
-                            input_length=MAX_SEQUENCE_LENGTH,
-                            trainable=True)
-
-sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
-embedded_sequences = embedding_layer(sequence_input)
-l_lstm = Bidirectional(LSTM(100))(embedded_sequences)
-preds = Dense(2, activation='softmax')(l_lstm)
-model = Model(sequence_input, preds)
-model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
-              metrics=['acc'])
-
-print("model fitting - Bidirectional LSTM")
-model.summary()
-model.fit(x_train, y_train, validation_data=(x_val, y_val),
-          nb_epoch=10, batch_size=50)
-
-# Attention GRU network		  
-class AttLayer(Layer):
-    def __init__(self, **kwargs):
-        self.init = initializations.get('normal')
-        #self.input_spec = [InputSpec(ndim=3)]
-        super(AttLayer, self).__init__(**kwargs)
-
-    def build(self, input_shape):
-        assert len(input_shape)==3
-        #self.W = self.init((input_shape[-1],1))
-        self.W = self.init((input_shape[-1],))
-        #self.input_spec = [InputSpec(shape=input_shape)]
-        self.trainable_weights = [self.W]
-        super(AttLayer, self).build(input_shape)  # be sure you call this somewhere!
-
-    def call(self, x, mask=None):
-        eij = K.tanh(K.dot(x, self.W))
-        
-        ai = K.exp(eij)
-        weights = ai/K.sum(ai, axis=1).dimshuffle(0,'x')
-        
-        weighted_input = x*weights.dimshuffle(0,1,'x')
-        return weighted_input.sum(axis=1)
-
-    def get_output_shape_for(self, input_shape):
-        return (input_shape[0], input_shape[-1])
-
-embedding_matrix = np.random.random((len(word_index) + 1, EMBEDDING_DIM))
-for word, i in word_index.items():
-    embedding_vector = embeddings_index.get(word)
-    if embedding_vector is not None:
-        # words not found in embedding index will be all-zeros.
-        embedding_matrix[i] = embedding_vector
-        
-embedding_layer = Embedding(len(word_index) + 1,
-                            EMBEDDING_DIM,
-                            weights=[embedding_matrix],
-                            input_length=MAX_SEQUENCE_LENGTH,
-                            trainable=True)
-
-
-
-sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
-embedded_sequences = embedding_layer(sequence_input)
-l_gru = Bidirectional(GRU(100, return_sequences=True))(embedded_sequences)
-l_att = AttLayer()(l_gru)
-preds = Dense(2, activation='softmax')(l_att)
-model = Model(sequence_input, preds)
-model.compile(loss='categorical_crossentropy',
-              optimizer='rmsprop',
-              metrics=['acc'])
-
-print("model fitting - attention GRU network")
-model.summary()
-model.fit(x_train, y_train, validation_data=(x_val, y_val),
-          nb_epoch=10, batch_size=50)
+    data_train = pd.read_csv(train_path, sep='\t')
+    data_dev = pd.read_csv(dev_path, sep='\t')
+    data_test = pd.read_csv(test_path, sep='\t')
+    
+    # data_train = pd.read_csv('~/Testground/data/imdb/labeledTrainData.tsv', sep='\t')
+    train_split_num = len(data_train)
+    dev_split_num = len(data_dev) + train_split_num
+    
+    data_train = pd.DataFrame(pd.concat([data_train, data_dev, data_test], ignore_index=True))
+    
+    print data_train.shape
+    
+    texts = []
+    labels = []
+    
+    for idx in range(data_train.review.shape[0]):
+        text = BeautifulSoup(data_train.review[idx])
+        texts.append(clean_str(text.get_text().encode('ascii','ignore')))
+        labels.append(data_train.sentiment[idx])
+    
+    tokenizer = Tokenizer(nb_words=MAX_NB_WORDS)
+    tokenizer.fit_on_texts(texts)
+    sequences = tokenizer.texts_to_sequences(texts)
+    
+    word_index = tokenizer.word_index
+    print('Found %s unique tokens.' % len(word_index))
+    
+    data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
+    true_label = np.asarray(labels[dev_split_num:])
+    
+    labels = to_categorical(np.asarray(labels))
+    print('Shape of data tensor:', data.shape)
+    print('Shape of label tensor:', labels.shape)
+    
+    
+    x_train = data[:train_split_num]
+    y_train = labels[:train_split_num]
+    
+    x_val = data[train_split_num:dev_split_num]
+    y_val = labels[train_split_num:dev_split_num]
+    
+    x_test = data[dev_split_num:]
+    y_test = labels[dev_split_num:]
+    
+    print('Traing and validation set number of positive and negative reviews')
+    print y_train.sum(axis=0)
+    print y_val.sum(axis=0)
+    
+    embeddings_index = {}
+    f = open(os.path.join(GLOVE_DIR, embedding_file))
+    for line in f:
+        values = line.split()
+        word = values[0]
+        coefs = np.asarray(values[1:], dtype='float32')
+        embeddings_index[word] = coefs
+    f.close()
+    
+    print('Total %s word vectors.' % len(embeddings_index))
+    
+    embedding_matrix = np.random.random((len(word_index) + 1, EMBEDDING_DIM))
+    for word, i in word_index.items():
+        embedding_vector = embeddings_index.get(word)
+        if embedding_vector is not None:
+            # words not found in embedding index will be all-zeros.
+            embedding_matrix[i] = embedding_vector
+    
+    embedding_layer = Embedding(len(word_index) + 1,
+                                EMBEDDING_DIM,
+                                weights=[embedding_matrix],
+                                input_length=MAX_SEQUENCE_LENGTH,
+                                trainable=True)
+    
+    sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
+    embedded_sequences = embedding_layer(sequence_input)
+    l_lstm = Bidirectional(LSTM(100))(embedded_sequences)
+    preds = Dense(Label_Size, activation='softmax')(l_lstm)
+    model = Model(sequence_input, preds)
+    model.compile(loss='categorical_crossentropy',
+                  optimizer='rmsprop',
+                  metrics=['acc'])
+    
+    print("model fitting - Bidirectional LSTM - " + classification_name)
+    logging.info("model fitting - Bidirectional LSTM - " + classification_name)
+    logging.info(model.summary())
+    
+    hist = model.fit(x_train, y_train, validation_data=(x_val, y_val),
+              nb_epoch = epochs, batch_size=batch_size)
+    
+    logging.info(label + "\n")
+    hist_test = model.evaluate(x_test, y_test, batch_size=batch_size)
+    logging.info(hist.history)
+    logging.info(hist.epoch)
+    logging.info(str(hist_test))
+    logging.info("Evaluate Recall Precision F1:\n")
+    # hist_test = model.evaluate(x_test, y_test, verbose=1)
+    hist_pre = model.predict(x_test, batch_size = batch_size)
+    predic_classes = np.argmax(hist_pre, axis=1)
+    
+    from sklearn.metrics import f1_score, precision_score, recall_score
+    a = [label, precision_score(true_label, predic_classes), recall_score(true_label, predic_classes), f1_score(true_label, predic_classes)]
+    logging.info(str(a))
+    result.append(a)
+    # pd.DataFrame(result, columns=["P", "R", "F"]).to_csv(eval_path, header="True")
+    model.save(save_model_path)
+    model.save_weights(save_model_path+"weights.h5")
+pd.DataFrame(result, columns=["Label", "P", "R", "F"]).to_csv(eval_path, header="True")

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../textClassifierLBSA.py" description="result.append([label, precision_score(label, true_..." line="429" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8340ba8-19fd-45a8-a4ad-018db301281c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../data/test_test_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/test_train_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_set/test_dev_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_set/test_test_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data_set/test_train_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/app_pp_label.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/test_dev_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/test_test_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataset/test_train_data.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/extract_label.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_pp_label.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model_evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../predictLBSA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../textClassifierDNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../word_embedding/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/textClassifier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/textClassifier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cgh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/15_classification.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Cookies_and_Similar_Technologies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Data_Retention.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Data_Security.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Data_Transfer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/First_Party_Collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/First_Party_Use.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Internal_and_Specific_Audiences.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Introductory_Generic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Legal_Basis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Links.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Policy_Change.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Privacy_Contact_Information.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/Third_Party_Sharing_and_Collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/User_Control.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/User_Right.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/data_retention.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/first_party.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/label.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataset/test.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/test_dev_data.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exteact_BMES.py" beforeDir="false" afterPath="$PROJECT_DIR$/exteact_BMES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/preproces.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/preproces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../preprocess/preproces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textClassifierConv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../textClassifierConv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textClassifierHATT.py" beforeDir="false" afterPath="$PROJECT_DIR$/../textClassifierHATT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textClassifierLBSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/../textClassifierLBSA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../textClassifierRNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../textClassifierRNN.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extract_label.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocess/preproces.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="224" column="39" selection-start-line="224" selection-start-column="39" selection-end-line="224" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/3.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/0.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="168" selection-start-column="167" selection-end-column="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="168" selection-start-column="168" selection-end-column="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/6.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="195" selection-start-column="195" selection-end-column="195" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exteact_BMES.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-classification/10_classification_test_data.tsv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-classification/10_classification_train_data.tsv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exteact_BMES.py" />
+        <option value="$PROJECT_DIR$/preprocess/preproces.py" />
+        <option value="$PROJECT_DIR$/extract_label.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="318" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="extract_label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="extract_label" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extract_label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="extract_label" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocess" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.extract_label">
+    <configuration name="extract_label" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="extract_label" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_label.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preproces" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="extract_label" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess/preproces.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.extract_label" />
+      <item itemvalue="Python.preproces" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.preproces" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986793" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23353909" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.33950618" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app_pp_label.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-classification/10_classification_dev_data.tsv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-classification/10_classification_test_data.tsv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-classification/10_classification_train_data.tsv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exteact_BMES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="168" selection-start-column="167" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="195" selection-start-column="195" selection-end-column="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="168" selection-start-column="168" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/preproces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="224" column="39" selection-start-line="224" selection-start-column="39" selection-end-line="224" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

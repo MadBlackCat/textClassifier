@@ -1,0 +1,74 @@
+2019-08-31 13:15:20,455 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 13:15:20,456 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:166] - Data_Retention -INFO: None
+2019-08-31 13:15:55,892 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 13:15:55,892 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:166] - Data_Retention -INFO: None
+2019-08-31 13:16:03,773 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:171] - Data_Retention -INFO: Data Retention
+
+2019-08-31 13:16:04,002 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:173] - Data_Retention -INFO: {'acc': [0.4673539400100708], 'loss': [0.71642982959747314], 'val_acc': [0.53125], 'val_loss': [1.0205147266387939]}
+2019-08-31 13:16:04,002 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:174] - Data_Retention -INFO: [0]
+2019-08-31 13:16:04,002 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:175] - Data_Retention -INFO: [1.1838812828063965, 0.45161288976669312]
+2019-08-31 13:16:04,002 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:176] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 13:16:27,073 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 13:16:27,073 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:166] - Data_Retention -INFO: None
+2019-08-31 13:16:34,901 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:171] - Data_Retention -INFO: Data Retention
+
+2019-08-31 13:16:35,131 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:173] - Data_Retention -INFO: {'acc': [0.47766321897506714], 'loss': [0.72286486625671387], 'val_acc': [0.4375], 'val_loss': [1.5595366954803467]}
+2019-08-31 13:16:35,131 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:174] - Data_Retention -INFO: [0]
+2019-08-31 13:16:35,131 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:175] - Data_Retention -INFO: [1.1354820728302002, 0.54838711023330688]
+2019-08-31 13:16:35,131 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:176] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 14:45:13,009 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 14:45:13,010 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:166] - Data_Retention -INFO: None
+2019-08-31 14:45:20,909 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:171] - Data_Retention -INFO: Data Retention
+
+2019-08-31 14:45:21,147 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:173] - Data_Retention -INFO: {'acc': [0.53608244657516479], 'loss': [0.69394421577453613], 'val_acc': [0.65625], 'val_loss': [0.81886112689971924]}
+2019-08-31 14:45:21,147 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:174] - Data_Retention -INFO: [0]
+2019-08-31 14:45:21,147 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:175] - Data_Retention -INFO: [1.2865537405014038, 0.45161288976669312]
+2019-08-31 14:45:21,147 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:176] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 14:45:42,129 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 14:45:42,129 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:166] - Data_Retention -INFO: None
+2019-08-31 14:45:50,071 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:171] - Data_Retention -INFO: Data Retention
+
+2019-08-31 14:45:50,301 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:173] - Data_Retention -INFO: {'acc': [0.49828177690505981], 'loss': [0.71055364608764648], 'val_acc': [0.46875], 'val_loss': [1.4131796360015869]}
+2019-08-31 14:45:50,302 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:174] - Data_Retention -INFO: [0]
+2019-08-31 14:45:50,302 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:175] - Data_Retention -INFO: [1.2415268421173096, 0.5161290168762207]
+2019-08-31 14:45:50,302 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:176] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 14:58:11,727 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:223] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 14:58:11,728 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - Data_Retention -INFO: None
+2019-08-31 14:58:19,755 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:229] - Data_Retention -INFO: Data Retention
+
+2019-08-31 14:58:19,990 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:231] - Data_Retention -INFO: {'acc': [0.43642610311508179], 'loss': [0.76131510734558105], 'val_acc': [0.59375], 'val_loss': [1.0968842506408691]}
+2019-08-31 14:58:19,990 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:232] - Data_Retention -INFO: [0]
+2019-08-31 14:58:19,990 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:233] - Data_Retention -INFO: [1.364876389503479, 0.45161288976669312]
+2019-08-31 14:58:19,990 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:234] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:03:04,444 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:218] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 15:03:04,444 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:219] - Data_Retention -INFO: None
+2019-08-31 15:03:11,552 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - Data_Retention -INFO: Data Retention
+
+2019-08-31 15:03:11,773 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - Data_Retention -INFO: {'acc': [0.49828177690505981], 'loss': [0.72430366277694702], 'val_acc': [0.625], 'val_loss': [1.1998175382614136]}
+2019-08-31 15:03:11,773 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - Data_Retention -INFO: [0]
+2019-08-31 15:03:11,773 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:228] - Data_Retention -INFO: [1.9569113254547119, 0.41935482621192932]
+2019-08-31 15:03:11,774 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:229] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:03:35,689 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:218] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 15:03:35,690 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:219] - Data_Retention -INFO: None
+2019-08-31 15:03:43,557 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - Data_Retention -INFO: Data Retention
+
+2019-08-31 15:03:43,782 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - Data_Retention -INFO: {'acc': [0.45704466104507446], 'loss': [0.73796510696411133], 'val_acc': [0.625], 'val_loss': [0.90789937973022461]}
+2019-08-31 15:03:43,782 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - Data_Retention -INFO: [0]
+2019-08-31 15:03:43,783 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:228] - Data_Retention -INFO: [1.3919590711593628, 0.41935482621192932]
+2019-08-31 15:03:43,783 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:229] - Data_Retention -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:04:38,630 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:218] - Data_Retention -INFO: model fitting - Bidirectional LSTM - Data_Retention
+2019-08-31 15:04:38,631 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:219] - Data_Retention -INFO: None
+2019-08-31 15:04:46,574 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - Data_Retention -INFO: Data Retention
+
+2019-08-31 15:04:46,798 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - Data_Retention -INFO: {'acc': [0.50859105587005615], 'loss': [0.70963460206985474], 'val_acc': [0.375], 'val_loss': [1.7430750131607056]}
+2019-08-31 15:04:46,798 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - Data_Retention -INFO: [0]
+2019-08-31 15:04:46,798 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:228] - Data_Retention -INFO: [1.3068480491638184, 0.58064514398574829]
+2019-08-31 15:04:46,798 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:229] - Data_Retention -INFO: Evaluate Recall Precision F1:
+

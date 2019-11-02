@@ -1,0 +1,148 @@
+2019-08-31 15:06:42,545 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:216] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:06:42,546 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:217] - test -INFO: None
+2019-08-31 15:06:44,659 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:222] - test -INFO: test
+
+2019-08-31 15:06:44,728 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - test -INFO: {'acc': [0.5], 'loss': [0.75150942802429199], 'val_acc': [0.5], 'val_loss': [0.67967772483825684]}
+2019-08-31 15:06:44,728 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:225] - test -INFO: [0]
+2019-08-31 15:06:44,728 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - test -INFO: [0.67967772483825684, 0.5]
+2019-08-31 15:06:44,728 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:07:00,209 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:216] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:07:00,210 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:217] - test -INFO: None
+2019-08-31 15:07:02,344 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:222] - test -INFO: test
+
+2019-08-31 15:07:02,417 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - test -INFO: {'acc': [0.5], 'loss': [0.63090604543685913], 'val_acc': [0.5], 'val_loss': [0.59150189161300659]}
+2019-08-31 15:07:02,417 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:225] - test -INFO: [0]
+2019-08-31 15:07:02,417 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - test -INFO: [0.59150189161300659, 0.5]
+2019-08-31 15:07:02,417 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:09:11,127 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:216] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:09:11,127 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:217] - test -INFO: None
+2019-08-31 15:09:12,559 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:222] - test -INFO: test
+
+2019-08-31 15:09:12,628 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - test -INFO: {'acc': [1.0], 'loss': [0.532867431640625], 'val_acc': [0.5], 'val_loss': [0.43012550473213196]}
+2019-08-31 15:09:12,629 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:225] - test -INFO: [0]
+2019-08-31 15:09:12,629 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - test -INFO: [0.43012550473213196, 0.5]
+2019-08-31 15:09:12,629 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:09:13,781 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:216] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:09:13,782 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:217] - test -INFO: None
+2019-08-31 15:09:15,236 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:222] - test -INFO: test
+
+2019-08-31 15:09:15,304 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - test -INFO: {'acc': [1.0], 'loss': [0.57024675607681274], 'val_acc': [0.5], 'val_loss': [0.40471255779266357]}
+2019-08-31 15:09:15,304 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:225] - test -INFO: [0]
+2019-08-31 15:09:15,304 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - test -INFO: [0.40471255779266357, 0.5]
+2019-08-31 15:09:15,304 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:09:23,029 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:216] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:09:23,030 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:217] - test -INFO: None
+2019-08-31 15:09:25,164 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:222] - test -INFO: test
+
+2019-08-31 15:09:25,238 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:224] - test -INFO: {'acc': [0.5], 'loss': [0.7638055682182312], 'val_acc': [0.5], 'val_loss': [0.57386946678161621]}
+2019-08-31 15:09:25,238 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:225] - test -INFO: [0]
+2019-08-31 15:09:25,238 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:226] - test -INFO: [0.57386946678161621, 0.5]
+2019-08-31 15:09:25,238 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:227] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:18:13,435 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:18:13,435 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:18:14,862 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:18:14,934 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.67736560106277466], 'val_acc': [0.5], 'val_loss': [0.43563643097877502]}
+2019-08-31 15:18:14,934 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:18:14,934 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.43563643097877502, 0.5]
+2019-08-31 15:18:14,934 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:18:44,180 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:18:44,181 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:18:45,603 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:18:45,674 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.69864869117736816], 'val_acc': [0.5], 'val_loss': [0.5320773720741272]}
+2019-08-31 15:18:45,675 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:18:45,675 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.5320773720741272, 0.5]
+2019-08-31 15:18:45,675 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:19:02,153 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:19:02,153 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:19:03,565 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:19:03,635 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.63916891813278198], 'val_acc': [0.5], 'val_loss': [0.61570495367050171]}
+2019-08-31 15:19:03,635 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:19:03,635 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.61570495367050171, 0.5]
+2019-08-31 15:19:03,635 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:20:20,564 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:20:20,564 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:20:21,981 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:20:22,051 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.77631312608718872], 'val_acc': [0.5], 'val_loss': [0.46441543102264404]}
+2019-08-31 15:20:22,051 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:20:22,051 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.46441543102264404, 0.5]
+2019-08-31 15:20:22,051 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:22:38,827 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:22:38,828 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:22:40,290 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:22:40,361 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.7752838134765625], 'val_acc': [0.5], 'val_loss': [0.42326381802558899]}
+2019-08-31 15:22:40,361 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:22:40,361 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.42326381802558899, 0.5]
+2019-08-31 15:22:40,361 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:22:44,011 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:22:44,012 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:22:46,129 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:22:46,201 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.66050118207931519], 'val_acc': [0.5], 'val_loss': [0.44833195209503174]}
+2019-08-31 15:22:46,202 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:22:46,202 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.44833195209503174, 0.5]
+2019-08-31 15:22:46,202 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:23:20,344 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:23:20,344 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:23:21,759 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:23:21,831 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.84390002489089966], 'val_acc': [0.5], 'val_loss': [0.57093948125839233]}
+2019-08-31 15:23:21,831 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:23:21,831 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.57093948125839233, 0.5]
+2019-08-31 15:23:21,831 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:23:33,484 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:23:33,485 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:23:34,895 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:23:34,964 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.74225854873657227], 'val_acc': [0.5], 'val_loss': [0.41053900122642517]}
+2019-08-31 15:23:34,964 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:23:34,964 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.41053900122642517, 0.5]
+2019-08-31 15:23:34,964 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:23:36,086 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:23:36,087 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:23:37,568 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:23:37,641 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.65465468168258667], 'val_acc': [0.5], 'val_loss': [0.38727566599845886]}
+2019-08-31 15:23:37,641 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:23:37,641 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.38727566599845886, 0.5]
+2019-08-31 15:23:37,641 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:23:38,926 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:23:38,926 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:24:11,222 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:24:11,222 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:24:12,629 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:24:12,701 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [0.5], 'loss': [0.70672792196273804], 'val_acc': [0.5], 'val_loss': [0.6684565544128418]}
+2019-08-31 15:24:12,701 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:24:12,701 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.6684565544128418, 0.5]
+2019-08-31 15:24:12,701 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:24:13,835 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:24:13,835 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
+2019-08-31 15:24:15,293 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:165] - test -INFO: test
+
+2019-08-31 15:24:15,365 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:167] - test -INFO: {'acc': [1.0], 'loss': [0.65688329935073853], 'val_acc': [0.5], 'val_loss': [0.44797602295875549]}
+2019-08-31 15:24:15,365 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:168] - test -INFO: [0]
+2019-08-31 15:24:15,365 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:169] - test -INFO: [0.44797602295875549, 0.5]
+2019-08-31 15:24:15,365 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:170] - test -INFO: Evaluate Recall Precision F1:
+
+2019-08-31 15:24:16,637 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:159] - test -INFO: model fitting - Bidirectional LSTM - test
+2019-08-31 15:24:16,637 - /home/rjmonster/PycharmProjects/textClassifier/textClassifierRNN.py[line:160] - test -INFO: None
